@@ -15,6 +15,9 @@ public class MultiRestoApp implements IMultiRestoApp {
     }
 
     public static void main(String []args) {
+
+        // CLIENT
+
         IMultiRestoApp clientApp = new MultiRestoApp();
         clientApp.displayMenu(new XmlData("Chicken wings", 350.12));
         KfcServiceAdapter adapter = new KfcServiceAdapter();

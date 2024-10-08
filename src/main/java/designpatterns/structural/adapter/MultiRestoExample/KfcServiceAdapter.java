@@ -5,6 +5,7 @@ import designpatterns.structural.adapter.MultiRestoExample.model.XmlData;
 
 public class KfcServiceAdapter implements IMultiRestoApp {
 
+    //ADAPTER CLASS
     private KfcService kfcService;
 
     public KfcServiceAdapter() {
