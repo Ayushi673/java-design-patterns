@@ -2,6 +2,7 @@ package designpatterns.structural.bridge.PizzaShopExample;
 
 public abstract class Pizza {
 
+    // IMPLEMENTATION
     private String sauce;
 
     private String toppings;

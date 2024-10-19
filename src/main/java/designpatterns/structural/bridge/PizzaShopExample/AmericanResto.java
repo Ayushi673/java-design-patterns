@@ -2,6 +2,7 @@ package designpatterns.structural.bridge.PizzaShopExample;
 
 public class AmericanResto extends Restaurant {
 
+    //REFINED ABSTRACTION
     public AmericanResto(Pizza pizza) {
         super(pizza);
     }

@@ -1,7 +1,10 @@
 package designpatterns.structural.bridge.PizzaShopExample;
 
 public abstract class Restaurant {
+
+    // ABSTRACTION
     public Pizza pizza;
+    // here we encapsulate an IMPLEMENTATION class inside an ABSTRACTION i.e, interface or abstract class.
 
     public Restaurant(Pizza pizza) {
         this.pizza = pizza;
